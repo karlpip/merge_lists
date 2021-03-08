@@ -51,7 +51,7 @@ func TestParsing(t *testing.T) {
 	}
 }
 
-// Tests the parsing of intervals
+// Tests the merging of inputs
 func TestMerging(t *testing.T) {
 	mergeTestInputs := [][]interval {
 		{interval{1, 1}}, // Single interval
